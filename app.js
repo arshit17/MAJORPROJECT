@@ -15,6 +15,7 @@ const flash = require("connect-flash");
 const passport = require("passport");
 const LocalStrategy = require("passport-local");
 const User = require("./models/user.js");
+// const mongo_url = "mongodb://localhost:27017/waterlust";
 const dbUrl = process.env.ALTASDB_URL;
 
 app.set("view engine","ejs");
